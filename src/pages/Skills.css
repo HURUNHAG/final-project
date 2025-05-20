@@ -1,0 +1,40 @@
+.skills-section {
+  min-height: 100vh;
+  background-color: #111;
+  color: #fff;
+  padding: 4rem 2rem;
+}
+
+.skills-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skills-container h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #4f46e5;
+}
+
+.skills-list .skill {
+  margin-bottom: 1.5rem;
+}
+
+.skill-name {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.skill-bar {
+  background-color: #333;
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skill-level {
+  background-color: #4f46e5;
+  height: 100%;
+  transition: width 1s ease-in-out;
+}
